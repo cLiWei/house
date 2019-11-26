@@ -1,0 +1,169 @@
+.icon {
+	  width: 1em;
+	  height: 1em;
+	  vertical-align: -0.15em;
+	  fill: currentColor;
+	  overflow: hidden;
+	}
+	.sb-icon{
+		width: 40upx;
+		height: 40upx;
+	}
+	.box {
+		width: 100%;
+		background: #fff;
+		padding-bottom:150upx;
+	}
+	.r-margin{
+		margin-right: 5upx;;
+	}
+	.B-boder{
+		border-bottom:1upx solid #ccc;
+	}
+	
+	.swiperBox {
+		
+		position: relative;
+		font-size: 24upx;
+		width: 100%;
+		height: 400upx;
+		overflow: hidden;
+	}
+	.swiper{
+		height: 400upx;
+		overflow: hidden;
+	}
+	.swiperpage {
+		position: absolute;
+		top: 10upx;
+		right: 10upx;
+		color: #fff;
+		z-index: 99;
+	}
+	.swipeimage{
+		width: 100%;
+	}
+	.headBtns {
+		width: 100%;
+		font-size: 26upx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.headBtn {
+		flex: 1;
+		height: 70upx;
+		line-height: 70upx;
+		background: $zs-color;
+		color: $zss-color;
+		text-align: left;
+		padding-left: 20upx;
+		padding-right: 20upx;
+		box-sizing: border-box;
+	}
+
+	.headBtn:nth-child(1) {
+		text-align: right;
+	}
+
+	.activeHead {
+		background: $zss-color;
+		color: $zs-color;
+	}
+	.price{
+		padding:20upx;
+		font-weight: bold;
+		font-size: 30upx;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
+	.price_text{
+		flex:1;
+	}
+	.like{
+		color:$red-color;
+	}
+	.place{
+		font-size: 26upx;
+		padding:10upx;
+		display: flex;
+		
+	}
+	.placeIcon{
+		margin-right:20upx;
+	}
+	.placename{
+		flex:1;
+	}
+	.placearrow{
+		margin-right: 20upx;
+	}
+	.detail{
+		
+		padding:20upx;
+		font-size: 26upx;
+	}
+	.detail_line{
+		height: 60upx;
+		display: flex;
+		align-items: center;
+	}
+	.line_one{
+		width: 50%;
+		text-align: left;
+	}
+	.title{
+		height: 70upx;
+		line-height: 70upx;
+		text-align: center;
+		font-size: 30upx;
+		font-weight: bold;
+		
+	}
+	.icons{
+		
+		width: 90%;
+		margin:0 auto;
+		display: flex;
+		font-size: 26upx;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		padding-top:40upx;
+	}
+	.iconBox{
+		height: 120upx;
+		text-align: center;
+		width: 25%;
+	}
+	.icons_text{
+		margin-top:10upx;
+	}
+	.btns{
+		width: 100%;
+		display: flex;
+		position: fixed;
+		bottom: 0;
+		height: 80upx;
+	}
+	.btns .footBtn{
+		flex:1;
+		height: 80upx;
+		font-size: 30upx;
+		background: #bfa699;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.btns .footBtn:last-child{
+		background: $red-color;
+		color:#fff;
+	}
+	.comment{
+		font-size: 26upx;
+		padding:20upx;
+		line-height: 40upx;
+	}
