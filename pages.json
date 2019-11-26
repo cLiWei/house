@@ -1,0 +1,149 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/index/index",
+		    "style" : {}
+		}
+		,{
+		    "path" : "pages/detail/detail",
+		    "style" : {
+				 "navigationBarTitleText": "展示"
+			}
+		},
+		{
+		    "path" : "pages/detail/detail_old",
+		    "style" : {
+				 "navigationBarTitleText": "展示"
+			}
+		},{
+		    "path" : "pages/detail/detail_new",
+		    "style" : {
+				 "navigationBarTitleText": "展示"
+			}
+		},
+		{
+		    "path" : "pages/map/map",
+		    "style" : {
+				"navigationBarTitleText": "地图"
+			}
+		},
+		{
+			"path": "pages/housecal/index",
+			"style": {
+				"navigationBarTitleText": "房贷计算器"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {
+				// "navigationBarTextStyle": "black",
+				// "navigationBarTitleText": "预约",
+				// "navigationBarBackgroundColor": "#faf5f5",
+				// "backgroundColor": "#fff"
+			}
+        }
+        
+        ,{
+            "path" : "pages/contact/orderHourse",
+            "style" : {
+				// "navigationBarTextStyle": "black",
+				// "navigationBarTitleText": "预约",
+				// "navigationBarBackgroundColor": "#faf5f5",
+				// "backgroundColor": "#fff"
+			}
+        },{
+            "path" : "pages/search/classify_new",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/search/classify",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {}
+        },{
+            "path" : "pages/search/search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/flc/flc",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/myAgreement/myAgreement",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/contact/myAgreement/myAgreement",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/detail/newHouse/new_detail",
+            "style" : {
+				"navigationBarTitleText": "详细信息"
+			}
+        },{
+            "path" : "pages/detail/newHouse/new_sell",
+            "style" : {
+				"navigationBarTitleText": "在售楼盘"
+			}
+        },{
+            "path" : "pages/detail/newHouse/new_allHouse",
+            "style" : {
+				"navigationBarTitleText": "全部户型"
+			}
+        },{
+            "path" : "pages/detail/newHouse/new_produce",
+            "style" : {
+				"navigationBarTitleText": "项目展示"
+			}
+        }
+        ,{
+            "path" : "pages/detail/newHouse_detail/newHouse_detail",
+            "style" : {}
+        }
+    ],
+	// "tabBar": {
+	//     "color": "#8a8a8a",
+	//     "selectedColor": "#bfa699",
+	//     "borderStyle": "black",
+	//     "backgroundColor": "#ffffff",
+	//     "list": [{
+	//         "pagePath": "pages/index/index",
+	//         "iconPath": "static/index.png",
+	//         "selectedIconPath": "static/index-active.png",
+	//         "text": "首页"
+	//     },{
+	//         "pagePath": "pages/flc/flc",
+	//         "iconPath": "static/house.png",
+	//         "selectedIconPath": "static/house-active.png",
+	//         "text": "找房"
+	//     },{
+	//         "pagePath": "pages/shop/shop",
+	//         "iconPath": "static/shop.png",
+	//         "selectedIconPath": "static/shop-active.png",
+	//         "text": "门店"
+	//     }, {
+	//         "pagePath": "pages/user/user",
+	//         "iconPath": "static/user.png",
+	//         "selectedIconPath": "static/user-active.png",
+	//         "text": "我的"
+	//     }]
+	// },
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		// "navigationBarBackgroundColor": "#faf5f5",
+		// "backgroundColor": "#fff"
+		 "navigationStyle": "custom"
+	}
+}
